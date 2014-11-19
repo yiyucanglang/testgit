@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class zyjclass;
 @interface ZYJViewController : UIViewController
 @property (copy,nonatomic) NSString *str;
+@property (strong,nonatomic) zyjclass *zyjclass;
 @end

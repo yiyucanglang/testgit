@@ -21,6 +21,7 @@
 		5504F8881A1C60090085548C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5504F86A1A1C60090085548C /* UIKit.framework */; };
 		5504F8901A1C60090085548C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5504F88E1A1C60090085548C /* InfoPlist.strings */; };
 		5504F8921A1C60090085548C /* testgitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5504F8911A1C60090085548C /* testgitTests.m */; };
+		5504F89D1A1C606B0085548C /* zyjclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5504F89C1A1C606B0085548C /* zyjclass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5504F88D1A1C60090085548C /* testgitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testgitTests-Info.plist"; sourceTree = "<group>"; };
 		5504F88F1A1C60090085548C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5504F8911A1C60090085548C /* testgitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testgitTests.m; sourceTree = "<group>"; };
+		5504F89B1A1C606B0085548C /* zyjclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zyjclass.h; sourceTree = "<group>"; };
+		5504F89C1A1C606B0085548C /* zyjclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zyjclass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		5504F85A1A1C60090085548C = {
 			isa = PBXGroup;
 			children = (
+				5504F89B1A1C606B0085548C /* zyjclass.h */,
+				5504F89C1A1C606B0085548C /* zyjclass.m */,
 				5504F86C1A1C60090085548C /* testgit */,
 				5504F88B1A1C60090085548C /* testgitTests */,
 				5504F8651A1C60090085548C /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5504F89D1A1C606B0085548C /* zyjclass.m in Sources */,
 				5504F8771A1C60090085548C /* ZYJAppDelegate.m in Sources */,
 				5504F8731A1C60090085548C /* main.m in Sources */,
 				5504F87D1A1C60090085548C /* ZYJViewController.m in Sources */,
