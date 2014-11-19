@@ -18,11 +18,17 @@
 {
     [super viewDidLoad];
     [self sayhello];
+    [self saybitch];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 - (void) sayhello
 {
     NSLog(@"hello");
+
+}
+- (void) saybitch
+{
+       NSLog(@"bitch");
 }
 - (void)didReceiveMemoryWarning
 {

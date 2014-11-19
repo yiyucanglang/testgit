@@ -12,4 +12,5 @@
 @property (copy,nonatomic) NSString *str;
 @property (strong,nonatomic) zyjclass *zyjclass;
 - (void) sayhello;
+- (void) saybitch;
 @end
