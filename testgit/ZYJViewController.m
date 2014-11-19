@@ -17,9 +17,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self saybitch];
 	// Do any additional setup after loading the view, typically from a nib.
 }
-
+- (void) saybitch
+{
+    NSLog(@"bitch");
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
