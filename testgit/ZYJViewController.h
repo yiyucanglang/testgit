@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ZYJViewController : UIViewController
-
+@property (copy,nonatomic) NSString *str;
 @end
