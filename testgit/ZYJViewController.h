@@ -11,4 +11,5 @@
 @interface ZYJViewController : UIViewController
 @property (copy,nonatomic) NSString *str;
 @property (strong,nonatomic) zyjclass *zyjclass;
+- (void) sayhello;
 @end
